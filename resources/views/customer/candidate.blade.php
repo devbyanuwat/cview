@@ -28,12 +28,11 @@
                 <h2 class="text-2xl font-semibold mb-4">ข้อมูลติดต่อ</h2>
                 <div class="text-left grid grid-rows-1 gap-5">
                     <p><i class="fa-brands fa-facebook text-blue-600 text-2xl"></i> <a
-                            href="https://www.facebook.com/example">Example
-                            Facebook</a></p>
-                    <p><i class="fa-brands fa-line text-green-600 text-2xl"></i> example_line</p>
+                            href="https://www.facebook.com/cviewtech/">FB: Cview</a></p>
+                    <p><i class="fa-brands fa-line text-green-600 text-2xl"></i> Line : Cview</p>
                     <p><i class="fa-solid fa-square-phone text-yellow-500 text-2xl"></i> 123-456-7890</p>
-                    <p><i class="fa-solid fa-location-dot text-red-500 text-2xl"></i> 123 Example Street, City,
-                        Country
+                    <p><i class="fa-solid fa-location-dot text-red-500 text-2xl"></i> 88/3 มบ.เดอะ วินน์
+                        กาญจนาภิเษก-สาทร บางแค บางแค กรุงเทพ 10160
                     </p>
                 </div>
             </div>
