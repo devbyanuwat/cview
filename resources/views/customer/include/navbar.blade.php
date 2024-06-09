@@ -24,7 +24,7 @@
                 <div class="ml-10 flex items-baseline space-x-4">
                     <!-- First Menu Item (Dropdown) -->
                     <div class="relative">
-                        <a href="<?php echo env('APP_URL') . 'public/welcome'; ?>"
+                        <a href="<?php echo env('APP_URL') . '/public/welcome'; ?>"
                             class="text-white hover:bg-blue-600 px-3 py-2 rounded-md text-sm font-medium">หน้าหลัก
                         </a>
                     </div>
@@ -94,7 +94,7 @@
     <div class="flex flex-col items-center justify-center h-full">
         <div class="flex flex-col items-center space-y-4">
             <!-- Mobile Menu Items -->
-            <a href="<?php echo env('APP_URL') . '/public/'; ?>"
+            <a href="<?php echo env('APP_URL') . '/' . 'public/welcome'; ?>"
                 class="text-white hover:bg-blue-600 px-3 py-2 rounded-md text-sm font-medium">หน้าหลัก</a>
             <div class="border border-white rounded-lg flex flex-col items-center">
                 <a href="#" id="dropdown-toggle"
