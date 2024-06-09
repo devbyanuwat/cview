@@ -1,6 +1,6 @@
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
-<link rel="stylesheet" href='<?php echo env('APP_URL') . 'public/toastr/build/toastr.min.css'; ?> '>
+<link rel="stylesheet" href='<?php echo env('APP_URL') . '/public/toastr/build/toastr.min.css'; ?> '>
 <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
     crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
@@ -9,7 +9,7 @@
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script src='<?php echo env('APP_URL') . 'public/toastr/build/toastr.min.js'; ?> '></script>
+<script src='<?php echo env('APP_URL') . '/public/toastr/build/toastr.min.js'; ?> '></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.min.js"
     integrity="sha512-PJa3oQSLWRB7wHZ7GQ/g+qyv6r4mbuhmiDb8BjSFZ8NZ2a42oTtAq5n0ucWAwcQDlikAtkub+tPVCw4np27WCg=="

@@ -3,7 +3,7 @@
         <div class="flex items-center justify-between h-16">
             <!-- Logo -->
             <div class="flex-shrink-0">
-                <a href="<?php echo env('APP_URL') . 'public/welcome'; ?>">
+                <a href="<?php echo env('APP_URL') . '/public/welcome'; ?>">
                     <img class="h-10 w-auto" src="<?php echo env('APP_URL'); ?>/resources/img/banner/Cview.png" alt="Logo">
                 </a>
             </div>
@@ -38,27 +38,27 @@
                         <div id="dropdown-menu" class="hidden absolute left-0 mt-2 w-32 bg-white rounded-lg shadow-lg">
                             <!-- Dropdown Items (Example) -->
                             <div class="border-t border-gray-200">
-                                <a href="<?php echo env('APP_URL') . 'public/products/solarcell'; ?>"
+                                <a href="<?php echo env('APP_URL') . '/public/products/solarcell'; ?>"
                                     class="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Solarcell</a>
-                                <a href="<?php echo env('APP_URL') . 'public/products/cctv'; ?>"
+                                <a href="<?php echo env('APP_URL') . '/public/products/cctv'; ?>"
                                     class="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">CCTV</a>
-                                <a href="<?php echo env('APP_URL') . 'public/products/evcharge'; ?>"
+                                <a href="<?php echo env('APP_URL') . '/public/products/evcharge'; ?>"
                                     class="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">EV CHARGE</a>
-                                <a href="<?php echo env('APP_URL') . 'public/products/accesscontrol'; ?>"
+                                <a href="<?php echo env('APP_URL') . '/public/products/accesscontrol'; ?>"
                                     class="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">ACCESS CONTROL</a>
-                                <a href="<?php echo env('APP_URL') . 'public/products/network'; ?>"
+                                <a href="<?php echo env('APP_URL') . '/public/products/network'; ?>"
                                     class="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">NETWORK</a>
                             </div>
                         </div>
                     </div>
                     <!-- Remaining Menu Items with Anchor Tags -->
                     <div class="relative">
-                        <a href="<?php echo env('APP_URL') . 'public/calculate'; ?>"
+                        <a href="<?php echo env('APP_URL') . '/public/calculate'; ?>"
                             class="text-white hover:bg-blue-600 px-3 py-2 rounded-md text-sm font-medium">คำนวณการใช้
                             Solarcell</a>
                     </div>
                     <div class="relative">
-                        <a href="<?php echo env('APP_URL') . 'public/article'; ?>"
+                        <a href="<?php echo env('APP_URL') . '/public/article'; ?>"
                             class="text-white hover:bg-blue-600 px-3 py-2 rounded-md text-sm font-medium">บทความ</a>
                     </div>
                     <div class="relative">
@@ -66,11 +66,11 @@
                             class="text-white hover:bg-blue-600 px-3 py-2 rounded-md text-sm font-medium">ผลงาน</a>
                     </div>
                     {{-- <div class="relative">
-                        <a href="<?php echo env('APP_URL') . 'public/candidate'; ?>"
+                        <a href="<?php echo env('APP_URL') . '/public/candidate'; ?>"
                             class="text-white hover:bg-blue-600 px-3 py-2 rounded-md text-sm font-medium">สนใจสมัครงาน</a>
                     </div> --}}
                     <div class="relative">
-                        <a href="<?php echo env('APP_URL') . 'public/candidate'; ?> "
+                        <a href="<?php echo env('APP_URL') . '/public/candidate'; ?> "
                             class="text-red-500 bg-white hover:bg-blue-600 px-3 py-2 rounded-md text-sm font-medium">สนใจสมัครงาน
                             / ติดต่อ</a>
                     </div>
@@ -94,7 +94,7 @@
     <div class="flex flex-col items-center justify-center h-full">
         <div class="flex flex-col items-center space-y-4">
             <!-- Mobile Menu Items -->
-            <a href="<?php echo env('APP_URL') . 'public/'; ?>"
+            <a href="<?php echo env('APP_URL') . '/public/'; ?>"
                 class="text-white hover:bg-blue-600 px-3 py-2 rounded-md text-sm font-medium">หน้าหลัก</a>
             <div class="border border-white rounded-lg flex flex-col items-center">
                 <a href="#" id="dropdown-toggle"
@@ -104,37 +104,37 @@
                 <!-- Dropdown Content -->
                 <!-- Dropdown Items (Example) -->
 
-                <a href="<?php echo env('APP_URL') . 'public/products/solarcell'; ?>"
+                <a href="<?php echo env('APP_URL') . '/public/products/solarcell'; ?>"
                     class="text-white hover:bg-blue-600 px-3 py-2 rounded-md text-sm font-medium">Solarcell</a>
-                <a href="<?php echo env('APP_URL') . 'public/products/cctv'; ?>"
+                <a href="<?php echo env('APP_URL') . '/public/products/cctv'; ?>"
                     class="text-white hover:bg-blue-600 px-3 py-2 rounded-md text-sm font-medium">CCTV</a>
-                <a href="<?php echo env('APP_URL') . 'public/products/evcharge'; ?>"
+                <a href="<?php echo env('APP_URL') . '/public/products/evcharge'; ?>"
                     class="text-white hover:bg-blue-600 px-3 py-2 rounded-md text-sm font-medium">EV
                     CHARGE</a>
-                <a href="<?php echo env('APP_URL') . 'public/products/accesscontrol'; ?>"
+                <a href="<?php echo env('APP_URL') . '/public/products/accesscontrol'; ?>"
                     class="text-white hover:bg-blue-600 px-3 py-2 rounded-md text-sm font-medium">ACCESS CONTROL</a>
-                <a href="<?php echo env('APP_URL') . 'public/products/network'; ?>"
+                <a href="<?php echo env('APP_URL') . '/public/products/network'; ?>"
                     class="text-white hover:bg-blue-600 px-3 py-2 rounded-md text-sm font-medium">NETWORK</a>
             </div>
             <div class="relative">
-                <a href="<?php echo env('APP_URL') . 'public/calculate'; ?>"
+                <a href="<?php echo env('APP_URL') . '/public/calculate'; ?>"
                     class="text-white hover:bg-blue-600 px-3 py-2 rounded-md text-sm font-medium">คำนวณการใช้
                     Solarcell</a>
             </div>
             <div class="relative">
-                <a href="<?php echo env('APP_URL') . 'public/article'; ?>"
+                <a href="<?php echo env('APP_URL') . '/public/article'; ?>"
                     class="text-white hover:bg-blue-600 px-3 py-2 rounded-md text-sm font-medium">บทความ</a>
             </div>
             <div class="relative">
-                <a href="<?php echo env('APP_URL') . 'public/review'; ?>"
+                <a href="<?php echo env('APP_URL') . '/public/review'; ?>"
                     class="text-white hover:bg-blue-600 px-3 py-2 rounded-md text-sm font-medium">ผลงาน</a>
             </div>
             {{-- <div class="relative">
-                        <a href="<?php echo env('APP_URL') . 'public/candidate'; ?>"
+                        <a href="<?php echo env('APP_URL') . '/public/candidate'; ?>"
                             class="text-white hover:bg-blue-600 px-3 py-2 rounded-md text-sm font-medium">สนใจสมัครงาน</a>
                     </div> --}}
             <div class="relative">
-                <a href="<?php echo env('APP_URL') . 'public/candidate'; ?> "
+                <a href="<?php echo env('APP_URL') . '/public/candidate'; ?> "
                     class="text-red-500 bg-white hover:bg-blue-600 px-3 py-2 rounded-md text-sm font-medium">สนใจสมัครงาน
                     / ติดต่อ</a>
             </div>

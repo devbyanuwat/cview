@@ -21,13 +21,13 @@
 
     @include('customer.include.navbar')
 
-    <img src="<?php echo env('APP_URL'); ?>resources/img/banner/banner.jpg" alt="banner">
+    <img src="<?php echo env('APP_URL'); ?>/public/resources/img/banner/banner.jpg" alt="banner">
     <br>
     <div class="container mx-auto ">
         <div class="bg-white shadow overflow-hidden sm:rounded-lg p-6 text-center ">
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div class="flex justify-end" data-aos="fade-up">
-                    <img src="<?php echo env('APP_URL'); ?>resources/img/other/spacial-offer.png" alt="spacial-offer"
+                    <img src="<?php echo env('APP_URL'); ?>/resources/img/other/spacial-offer.png" alt="spacial-offer"
                         class="w-full sm:w-3/4 rounded-lg shadow-lg">
                 </div>
                 <div class="flex items-center sm:justify-start justify-center" data-aos="fade-down">
@@ -42,7 +42,7 @@
     <br>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3" id="image-grid">
         <div class="relative" data-aos="fade-up">
-            <img src="<?php echo env('APP_URL'); ?>resources/img/other/strong.jpg" class="w-full h-full shadow"
+            <img src="<?php echo env('APP_URL'); ?>/resources/img/other/strong.jpg" class="w-full h-full shadow"
                 alt="Wind Turbines">
             <div
                 class="absolute bottom-0 left-0 right-0 mx-auto pb-3 p-3 flex flex-col items-center justify-center text-white text-lg bg-gradient-to-t from-gray-200">
@@ -52,7 +52,7 @@
         </div>
 
         <div class="relative" data-aos="fade-down">
-            <img src="<?php echo env('APP_URL'); ?>resources/img/other/safe.jpg" class="w-full h-full  shadow" alt="safe">
+            <img src="<?php echo env('APP_URL'); ?>/resources/img/other/safe.jpg" class="w-full h-full  shadow" alt="safe">
             <div
                 class="absolute bottom-0 left-0 right-0 mx-auto pb-3 p-3 flex flex-col items-center justify-center text-white text-lg bg-gradient-to-t from-gray-200">
                 <span class="font-bold text-3xl">ปลอดภัย</span>
@@ -61,7 +61,8 @@
         </div>
 
         <div class="relative" data-aos="fade-up">
-            <img src="<?php echo env('APP_URL'); ?>resources/img/other/standard.jpg" class="w-full h-full  shadow" alt="safe">
+            <img src="<?php echo env('APP_URL'); ?>/resources/img/other/standard.jpg" class="w-full h-full  shadow"
+                alt="safe">
             <div
                 class="absolute bottom-0 left-0 right-0 mx-auto pb-3 p-3 flex flex-col items-center justify-center text-white text-lg bg-gradient-to-t from-gray-200">
                 <span class="font-bold text-3xl">มีมาตรฐาน</span>
